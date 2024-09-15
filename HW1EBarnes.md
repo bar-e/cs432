@@ -62,7 +62,11 @@ a)
 
 b)
 
+![\label{fig:HTML}](HW1Q2b.png)
+
 c & d)
+
+![\label{fig:HTML2}](HW1Q2c.png)
 
 
 # Q3

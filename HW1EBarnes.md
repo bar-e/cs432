@@ -77,5 +77,4 @@ c & d)
 
 *Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.  These are just a couple examples.*
 
-* Stack Overflow, How can I parse (read) and use JSON in Python?, <https://stackoverflow.com/questions/7771011/how-can-i-parse-read-and-use-json-in-python>
-* ChatGPT conversation, Initial prompt: "write a python line to detect if a string ends with .png", <https://chat.openai.com/share/5de76e93-c26b-4665-a0fc-b782b01a9285>
+* zenrows, cURL User Agent: How to Set or Change It in 2024, [<https://www.zenrows.com/blog/curl-user-agent#what-is-curl-user-agent>]

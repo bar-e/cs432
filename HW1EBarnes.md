@@ -73,8 +73,24 @@ c & d)
 
 ## Answer
 
+from bs4 import BeautifulSoup
+import requests
+import sys
+import re
+
+response = requests.get(sys.argv[1], timeout=5)
+
+soup = BeautifulSoup((response.text), features="html.parser")
+
+for links in soup.find_all('a'):
+  print(links.get('href'))
+  ##p = re.compile(r'^(\d+) bytes$')
+  ##el = soup.find(text=p)
+  ##size = p.match(el).group(1)
+  ##print("here")
+  ## print(size)
+
 # References
 
-*Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.  These are just a couple examples.*
-
+* Google Colab, 432_Python.ipynb. [<https://colab.research.google.com/drive/1MGv7B89AhQr6SkQsjUEWV24ibLMq0dqf#scrollTo=8_wG_TQLDYA5>]
 * zenrows, cURL User Agent: How to Set or Change It in 2024, [<https://www.zenrows.com/blog/curl-user-agent#what-is-curl-user-agent>]

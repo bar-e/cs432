@@ -56,6 +56,14 @@ For the graph, list the nodes (in alphabetical order) that are each of the follo
 # Q2
 
 ## Answer
+a)
+
+![\label{fig:bowtie}](HW1Q2.png)
+
+b)
+
+c & d)
+
 
 # Q3
 
